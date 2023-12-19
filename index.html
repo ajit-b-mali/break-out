@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaks Breaker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game">
+        <div class="start">
+            <div>1-Bit BreakOut</div>
+            <div class="info">
+                keys: space to start<br>
+                left rigth arrow to move<br>
+                mouse and touch also works
+            </div>
+            <button>Start</button>
+        </div>
+        <div class="main">
+            <div class="level"></div>
+            <canvas id="world" width="500" height="600">
+                You don't desearve canvas
+            </canvas>
+        </div>
+        <div class="end">
+            <div>Game Over</div>
+            <button>Restart</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"
+        integrity="sha512-xi/RZRIF/S0hJ+yJJYuZ5yk6/8pCiRlEXZzoguSMl+vk2i3m6UjUO/WcZ11blRL/O+rnj94JRGwt/CHbc9+6EA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="UI.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
